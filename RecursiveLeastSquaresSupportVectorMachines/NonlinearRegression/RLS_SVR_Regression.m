@@ -40,7 +40,7 @@ for k=1:NoD
 
     for j=1:NoD
         for i=1:NoD
-            tmp(i,1) = alpha(i,1).*exp(-gamma*(xpred(j,1)-xtrain(i,1))^2);
+            tmp(i,1) = alpha(i,1).*exp(-gamma*(xpred(j,1)-xpred(i,1))^2);
         end
         ypred(j,1) = sum(tmp) + bias;
     end
