@@ -2,10 +2,6 @@
 % Written By: Rasit
 % 07-Mar-2024
 clc, clear all, close all;
-% Spiral data generation and LS-SVM based classification
-% Written By: Rasit
-% 07-Mar-2024
-clc, clear all, close all;
 %% Data Generation
 B = 4;
 N = 200;
