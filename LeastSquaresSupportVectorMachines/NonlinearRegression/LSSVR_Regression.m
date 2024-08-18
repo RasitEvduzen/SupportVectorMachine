@@ -12,7 +12,7 @@ ytrain = 0.01*xtrain.*xtrain + 0.1*exp(-xtrain) + sin(xtrain) +0.1*randn(NoD,1);
 %% Train LS-SVM
 
 K = zeros(NoD,NoD); 
-C = 1000;     % Over Fitting Param (C=100)
+C = 100;     % Over Fitting Param (C=100)
 gamma = 5e-1; % RBF param, equal to 1/2sigma^2 (g=1e-2)
 
 kernelSelect = 'rbf';
